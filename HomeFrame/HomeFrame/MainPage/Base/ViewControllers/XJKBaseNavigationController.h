@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XJKBaseNavigationController.h
 //  HomeFrame
 //
 //  Created by 徐靖凯 on 2017/8/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XJKBaseNavigationController : UINavigationController
 
 @end
-

@@ -1,29 +1,27 @@
 //
-//  ViewController.m
+//  MyViewController.m
 //  HomeFrame
 //
 //  Created by 徐靖凯 on 2017/8/18.
 //  Copyright © 2017年 徐靖凯. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyViewController.h"
 
-@interface ViewController ()
+@interface MyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
