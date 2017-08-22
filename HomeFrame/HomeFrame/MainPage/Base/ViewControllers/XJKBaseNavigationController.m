@@ -16,12 +16,45 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+}
+
+/**
+ * 重写push方法，push的控制器隐藏tabBar
+ */
+-(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    viewController.hidesBottomBarWhenPushed = YES;
+    [super pushViewController:viewController animated:animated];
+}
+
+/**
+ * 解决左滑卡死
+ */
+- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPushItem:(UINavigationItem *)item {
+    //只有一个控制器的时候禁止手势，防止卡死现象
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.interactivePopGestureRecognizer.enabled = NO;
+    }
+    if (self.childViewControllers.count > 1) {
+        if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+            self.interactivePopGestureRecognizer.enabled = YES;
+        }
+    }
+    return YES;
+}
+
+- (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
+    //只有一个控制器的时候禁止手势，防止卡死现象
+    if (self.childViewControllers.count == 1) {
+        if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+            self.interactivePopGestureRecognizer.enabled = NO;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

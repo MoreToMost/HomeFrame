@@ -8,9 +8,24 @@
 
 #import <AFNetworking.h>
 #import "XJKRequest.h"
-#import "APIDefine.h"
 
 @implementation XJKRequest
+
++ (void)successFromURL:(NSString *)url
+                andTag:(NSString *)tag
+     andResponseObject:(id)responseObject
+     completionHandler:(void(^)(__kindof id response, XJKResponseCode code, NSError * error))handler
+{
+    
+}
+
++ (void)failFromURL:(NSString *)url
+             andTag:(NSString *)tag
+  andResponseObject:(id)responseObject
+  completionHandler:(void(^)(__kindof id response, XJKResponseCode code, NSError * error))handler
+{
+    
+}
 
 + (AFHTTPSessionManager *)defaultSessionManager
 {

@@ -44,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>XJKAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -52,7 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DE72813F353A5DBD8572A618CDB43DF</key>
+		<key>45E72611C5731ED056F3EB6EC50D3D70</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C9AE39E975E93175D1D5097A30B11241</key>
+		<key>E06C4F5A26E4DD21A35F71DC59CDAF19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3E41407838A9D059975F453D797013F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
