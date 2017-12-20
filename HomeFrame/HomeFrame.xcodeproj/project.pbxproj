@@ -130,9 +130,9 @@
 		E30E9ECF1F46CF0D00DB482E /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
-				E30E9ED41F46CF5C00DB482E /* Third */,
+				E39D5A5F1FEA562900670ECF /* Others */,
+				E39D5A5E1FEA562000670ECF /* Third */,
 				E30E9ED31F46CF5200DB482E /* Page */,
-				E30E9ED21F46CF4A00DB482E /* Others */,
 				E30E9ED11F46CF4100DB482E /* Config */,
 				E30E9ED01F46CF3400DB482E /* Base */,
 			);
@@ -161,13 +161,6 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
-		E30E9ED21F46CF4A00DB482E /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
 		E30E9ED31F46CF5200DB482E /* Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,13 +168,6 @@
 				E30E9ED81F46CFF900DB482E /* DeBug */,
 			);
 			path = Page;
-			sourceTree = "<group>";
-		};
-		E30E9ED41F46CF5C00DB482E /* Third */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Third;
 			sourceTree = "<group>";
 		};
 		E30E9ED51F46CFAB00DB482E /* ViewControllers */ = {
@@ -242,6 +228,20 @@
 				E30E9EFC1F46E49C00DB482E /* XJKRequest.m */,
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		E39D5A5E1FEA562000670ECF /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		E39D5A5F1FEA562900670ECF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		E3BB121D1F46C39500874722 = {
