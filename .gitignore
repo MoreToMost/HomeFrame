@@ -5,6 +5,8 @@
 
 *.xcbkptlist
 
+*.pbxproj
+
 Pods/Pods.xcodeproj/xcuserdata/junchao.xcuserdatad/xcschemes/xcschememanagement.plist
 
 Pods/Pods.xcodeproj/xcuserdata/jack.xcuserdatad/xcschemes/xcschememanagement.plist
